@@ -11,7 +11,7 @@ ReactDOM.render(
     {/* <ColorModeScript /> */}
     <App />
   </StrictMode>,
-  document.getElementById("root")
+  document.getElementById("root" + "_1")
 );
 // ReactDOM.render(() => <div>Test Vite</div>, document.getElementById("root"));
 // ReactDOM.render(
