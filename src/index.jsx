@@ -6,12 +6,16 @@ import ReactDOM from "react-dom";
 import App from "./App";
 // import * as serviceWorker from "./serviceWorker";
 
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get('id');
+ 
+
 ReactDOM.render(
   <StrictMode>
     {/* <ColorModeScript /> */}
     <App />
   </StrictMode>,
-  document.getElementById("root" + "_1")
+  document.getElementById("root_" + id)
 );
 // ReactDOM.render(() => <div>Test Vite</div>, document.getElementById("root"));
 // ReactDOM.render(
