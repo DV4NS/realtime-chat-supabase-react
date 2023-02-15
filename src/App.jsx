@@ -31,7 +31,7 @@ function App() {
           {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
           <Router>
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/test">
                 <Header username={username} setUsername={setUsername} />
                 <Chat username={username} />
                 <Footer username={username} />
